@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    
+    box-sizing:border-box;
+    list-style:none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-color:#a6abad;
+    display: block;
+}
+/*@media screen and(max-width:630px) {
+    .main-content{
+grid-template-columns: repeat(1,1fr);
+    }*/
+    @media screen and (min-width:674px){
+        
+        grid-template-columns:repeat(1, 1fr);
+        }
+ .main-content{
+    min-height: 1000px;
+    width:90%;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns:300px 700px;
+}
+section {
+    display:block;
+}
+
+
+section.left-section{
+    height: 100%;
+   
+    grid-column:span 1; 
+    background-color: #242531;
+
+
+}
+.right-section{
+
+ grid-column: span 1 / span 2 ;
+   background-color: #f7f7f7;
+
+}
+.left-content{
+    padding-left:1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.profile-details{
+    padding: 5%;
+}
+.profile-image{
+    
+    display: block;
+    margin:auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    padding:20%;
+    width:60%;
+  
+}
+.name{
+    color:aliceblue;
+    font-size: 1.2rem;
+    font-weight:700;
+    text-align: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    text-transform: capitalize;
+}
+.designation{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 0.5;
+}
+.description{
+    padding: 1rem;
+    color:aliceblue;
+    text-align:center;
+    font-size: 0.75rem;
+   
+}
+.personal-details{
+    color:white;
+}
+.skills{
+    font-size:00.75rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding-left:0.5rem ;
+    padding-top:1rem ;
+    padding-right:0.5rem  ;
+    padding-bottom: 1rem;
+    color: #f7f7f7;
+
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65;
+    text-align:left;
+    padding-bottom:0.5rem;
+}
+.progress-bar{
+    border:1px white solid;
+    height:4px;
+}
+.right-main-content{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-right:3rem;
+    padding-left:3rem;
+}
+.right-title{
+    text-transform:capitalize ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-github{
+    background: #007bb5 ;
+    color:white;
+  }
+  
