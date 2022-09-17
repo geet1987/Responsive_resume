@@ -15,7 +15,7 @@ grid-template-columns: repeat(1,1fr);
     }*/
     @media screen and (min-width:674px){
         
-        grid-template-columns:repeat(1, 1fr);
+        grid-template-columns:repeat(1,1fr);
         }
  .main-content{
     min-height: 1000px;
@@ -30,16 +30,15 @@ section {
 
 
 section.left-section{
-    height: 100%;
-   
+    height: auto;
+    max-width: 100%;
     grid-column:span 1; 
     background-color: #242531;
 
 
 }
 .right-section{
-
- grid-column: span 1 / span 2 ;
+  grid-column: span 1 / span 2 ;
    background-color: #f7f7f7;
 
 }
@@ -53,12 +52,11 @@ section.left-section{
     padding: 5%;
 }
 .profile-image{
-    
     display: block;
     margin:auto;
     border: 5px white solid;
     border-radius: 30%;
-    padding:20%;
+    padding:1rem;
     width:60%;
   
 }
